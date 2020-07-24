@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView id="pause.jpg" layoutX="0.0" layoutY="0.0">
+      <image>
+        <Image url="@pause.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#66c8fff6" height="33.015625" layoutX="60.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="484.0" />
+    <Text layoutX="132.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME GOALS" textAlignment="CENTER" wrappingWidth="335.962890625">
+      <font>
+        <Font name="System Bold" size="40.0" />
+      </font>
+    </Text>
+    <Text layoutX="53.0" layoutY="140.0" scaleX="1.0296152596896984" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You must complete these goals in order to complete the level!!" textAlignment="CENTER" wrappingWidth="498.962890625">
+      <font>
+        <Font name="System Bold Italic" size="16.0" />
+      </font>
+    </Text>
+    <GridPane fx:id="goalGrid" layoutX="256.0" layoutY="206.0">
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Button fx:id="continueButton" layoutX="243.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleContinueButton" prefHeight="41.203125" prefWidth="113.00009999999747" text="Continue" wrapText="false">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Button>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff97" height="142.0" layoutX="0.0" layoutY="172.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+  </children>
+</Pane>

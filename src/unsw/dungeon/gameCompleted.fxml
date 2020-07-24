@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView id="youwin.jpg" layoutX="-1.0" layoutY="0.0">
+      <image>
+        <Image url="@youwin.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#99daffe3" height="39.90234375" layoutX="127.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+    <Text layoutX="126.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALL GOALS COMPLETED!" textAlignment="CENTER" wrappingWidth="350.0">
+      <font>
+        <Font name="System Italic" size="30.0" />
+      </font>
+    </Text>
+    <Text layoutX="135.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOU WIN!" textAlignment="CENTER" wrappingWidth="335.962890625">
+      <font>
+        <Font name="System Bold" size="40.0" />
+      </font>
+    </Text>
+  </children>
+</Pane>
